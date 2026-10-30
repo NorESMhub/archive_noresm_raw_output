@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "about": [
+                {
+                    "@id": "http://dd.eionet.europa.eu/vocabulary/eurostat/fos07/FOS1"
+                }
+            ],
+            "author": [
+                "adag@met.no"
+            ],
+            "cite-as": ", N1850_f09_tn14_20190610, NIRD RDA, 2025. https://doi.org/10.11582/2021.00127.",
+            "contentLanguages": "https://iso639-3.sil.org/code/eng",
+            "datePublished": "2025-06-14",
+            "description": "Member nr. 12 of the NorESM2-MM spin up prepared for CMIP6, http://doi.org/10.22033/ESGF/CMIP6.8221. The simulation covers the years 0481 - 0510. A description is given in Seland et al. 2020 and figures of time series of key variables included in the Supplementary information of Seland et al. 2020. In addition, a detailed description of the simulation can be found here: https://noresmhub.github.io/noresm-exp/noresm2_mm_spin/noresm2_mm_spin12.html\n",
+            "identifier": "https://doi.org/10.11582/2021.00127",
+            "keywords": [
+                "Geophysics"
+            ],
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "name": "N1850_f09_tn14_20190610",
+            "publisher": {
+                "@id": "https://wikidata.org/Q12008197"
+            },
+            "themes": [
+                {
+                    "@id": "https://apps.usgs.gov/thesaurus/term-simple.php?thcode=15&code=002"
+                }
+            ],
+            "title": "N1850_f09_tn14_20190610",
+            "url": "https://doi.org/10.11582/2021.00127",
+            "version": 1
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "creator": {
+                "@id": "https://wikidata.org/Q12008197"
+            }
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by/4.0/",
+            "@type": "CreativeWork",
+            "description": "Creative Commons Attribution 4.0",
+            "name": "CC-BY-4.0"
+        },
+        {
+            "@id": "https://wikidata.org/Q12008197",
+            "@type": "Organization",
+            "name": "NIRD RDA",
+            "url": "https://wikidata.org/Q12008197"
+        }
+    ]
+}
